@@ -65,15 +65,13 @@ gulp.task('js', function() {
 });
 
 gulp.task('hugo:prod',shell.task(['hugo --baseUrl https://www.daswag.tech']));
-gulp.task('hugo:staging',shell.task(['hugo --baseUrl http://dev.daswag.tech']));
 gulp.task('hugo:dev',shell.task(['hugo']));
 
 
 gulp.task('build:prod',['sass', 'js']);
-gulp.task('build:staging',['sass', 'js']);
 gulp.task('build:dev',['sass', 'js']);
 
 gulp.task('watch', function () {
-  gulp.watch(['themes/daswag/static/js/**/*.js','!themes/vamp/static/js/dist/*.js'],['js']);
+  gulp.watch(['themes/daswag/static/js/**/*.js','!themes/daswag/static/js/dist/*.js'],['js']);
   gulp.watch('themes/daswag/static/scss/**/*.scss',['sass']);
 });

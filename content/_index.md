@@ -4,8 +4,7 @@ title: Canary releasing and autoscaling for microservice systems
 type: index
 draft: true
 ---
-* [try Vamp](/tryvamp/)
-* [learn more](whatisvamp/)
+* [learn more](whatisdaswag/)
 
 -----------
 

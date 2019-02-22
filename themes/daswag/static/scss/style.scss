@@ -5,7 +5,6 @@
 @import 'nav-popover';
 @import 'badge';
 @import 'blog';
-@import 'testimonial';
 @import 'table';
 @import 'mixins';
 @import 'transitions';
@@ -14,9 +13,6 @@
 @import 'featured-articles';
 @import 'news';
 @import 'markdown';
-
-// apps
-@import 'apps/maturity-calculator';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -1599,4 +1595,3 @@ img.screenshot {
 }
 
 @import "marketing/landing/style";
-@import "careers/style";

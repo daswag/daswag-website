@@ -72,24 +72,12 @@ googleAnalytics = ""
 # Top nav
 
 [[menu.topnav]]
-    name = "Product"
-    identifier = "product-top"
-    url = "/product/"
-    weight = 10
-
-[[menu.topnav]]
-	name   = "Resources"
+	name   = "Documentation"
     identifier = "developers-top"
 	url    = "/documentation/"
 	weight = 30
 
 # Main categories
-
-[[menu.main]]
-	name   = "Product"
-	url    = "/product/"
-	identifier = "product"
-	weight = 10
 
 [[menu.main]]
 	name   = "Documentation"
@@ -106,19 +94,6 @@ googleAnalytics = ""
 	url    = "/news/"
 	weight = 50
 
-
-[[menu.main]]
-	name = "Features"
-	url = "/product/"
-	parent = "product"
-	weight = 10
-
-[[menu.main]]
-	name = "Use cases"
-	url = "/product/use-cases/overview"
-	parent = "product"
-	weight = 20
-
 [[menu.main]]
 	name	= "How daSWAG works"
 	url = "/documentation/how-daswag-works/"
@@ -133,26 +108,7 @@ googleAnalytics = ""
 	weight = 20
 
 [[menu.main]]
-	name = "Tutorials"
-	url = "/documentation/tutorials/"
-	parent = "Documentation"
-	weight = 30
-
-[[menu.main]]
 	name = "Using daSWAG"
 	url = "/documentation/using-daswag/"
 	parent = "Documentation"
 	weight = 40
-
-[[menu.main]]
-	name = "CLI documentation"
-	identifier = "CLI"
-	url = "/documentation/cli/using-the-cli/"
-	parent = "Documentation"
-	weight = 90
-
-[[menu.main]]
-	name = "Troubleshoot"
-	identifier = "Troubleshooting"
-	url = "/documentation/troubleshoot"
-	parent = "Documentation"
