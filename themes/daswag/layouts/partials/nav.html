@@ -1,0 +1,39 @@
+<nav aria-label="Header" id="header" class="navbar">
+  <div class="container">
+    <div class="left">
+      <a href="/">
+        <div id="logo" class="logo"></div>
+      </a>
+    </div>
+    <div class="right">
+      <div class="navbar-items" id="navbar-items">
+        <a href="/product/" data-parenturl="/product/" class="navbar-item top-nav-product-top" data-target="webuiPopover0">Product <i class="ml-2 fa fa-angle-down"></i></a>
+        <a href="/blog/" data-parenturl="/blog/" class="navbar-item">Blog</a>
+        <a href="/news/" data-parenturl="/news/" class="navbar-item">News</a>
+        <a href="/documentation/" data-parenturl="/documentation/" class="navbar-item top-nav-developers-top" data-target="webuiPopover1">Resources <i class="ml-2 fa fa-angle-down"></i></a>
+        <a href="/support/" data-parenturl="/support/" class="navbar-item">Support</a>
+        <a href="#" data-parenturl="/contact/"  class="navbar-item" data-toggle="modal" data-target="#contactFormModal">Get pricing</a>
+      </div>
+      {{ partial "popovers/nav-product-popover" . }}
+      {{ partial "popovers/nav-developers-popover" . }}
+      <div class="search">
+        <i class="fa fa-search"></i>
+        <input type="search" placeholder="search the docs..." class="search-input" autofocus="autofocus">
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav aria-label="Header" id="mobile-header">
+  <a href="/" class="logo">
+    <img id="logo" class="logo" src="/img/005-vamp/Logo/logo-long-colour.svg" alt="">
+  </a>
+  <div class="right">
+    <div class="hamburger">
+      <i class="fa fa-lg fa-bars" aria-hidden="true"></i>
+    </div>
+  </div>
+
+</nav>
+
+{{ partial "mobile-menu" . }}

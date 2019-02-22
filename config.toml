@@ -1,0 +1,158 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "daSWAG | Serverless Web Applicaiton Generator"
+theme = "daswag"
+metadataformat = "yaml"
+canonifyurls = true
+enableGitInfo = true
+publishDir = "public"
+
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "daswag.tech"
+	description = "Open Source Serverless Generator for creating Web application projects in seconds!"
+	copyright = "Released under the Apache 2 license"
+
+	# Repository
+	provider = "Gitlab"
+	repo_url = "https://gitlab.com/daswag/daswag-website"
+
+	version = "1.0.0"
+	logo = "images/favicon.png?v=1.0"
+	favicon = "images/favicon.png?v=1.0"
+	og_image = "https://vamp.io/img/006-mock-ups/VAMP-light-laptop-v100-hero.png"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css  = [
+	  "stylesheets/dropdown.css"
+	]
+	custom_js   = [
+	  "javascripts/lunr.min.js",
+	  "javascripts/version.js"
+	]
+
+	versionedDocs = [
+	    "API",
+	    "Configuration",
+	    "Using daSWAG",
+	    "Installation",
+	    "Troubleshooting"
+	]
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "pink"
+    	accent  = "pink"
+
+    [params.font]
+    	text = "Roboto"
+    	code = "Roboto Mono"
+
+[social]
+	twitter = "daswag_project"
+	gitlab  = "daswag/daswag-website"
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+
+[taxonomies]
+  platform = "platforms"
+  serie = "series"
+
+# Top nav
+
+[[menu.topnav]]
+    name = "Product"
+    identifier = "product-top"
+    url = "/product/"
+    weight = 10
+
+[[menu.topnav]]
+	name   = "Resources"
+    identifier = "developers-top"
+	url    = "/documentation/"
+	weight = 30
+
+# Main categories
+
+[[menu.main]]
+	name   = "Product"
+	url    = "/product/"
+	identifier = "product"
+	weight = 10
+
+[[menu.main]]
+	name   = "Documentation"
+	url    = "/documentation/"
+	weight = 20
+
+[[menu.main]]
+	name   = "About"
+	url    = "/about/"
+	weight = 40
+
+[[menu.main]]
+	name   = "News"
+	url    = "/news/"
+	weight = 50
+
+
+[[menu.main]]
+	name = "Features"
+	url = "/product/"
+	parent = "product"
+	weight = 10
+
+[[menu.main]]
+	name = "Use cases"
+	url = "/product/use-cases/overview"
+	parent = "product"
+	weight = 20
+
+[[menu.main]]
+	name	= "How daSWAG works"
+	url = "/documentation/how-daswag-works/"
+	parent = "Documentation"
+	weight = 10
+
+[[menu.main]]
+	name = "Installation"
+	identifier = "Installation"
+	url = "/documentation/installation/overview"
+	parent = "Documentation"
+	weight = 20
+
+[[menu.main]]
+	name = "Tutorials"
+	url = "/documentation/tutorials/"
+	parent = "Documentation"
+	weight = 30
+
+[[menu.main]]
+	name = "Using daSWAG"
+	url = "/documentation/using-daswag/"
+	parent = "Documentation"
+	weight = 40
+
+[[menu.main]]
+	name = "CLI documentation"
+	identifier = "CLI"
+	url = "/documentation/cli/using-the-cli/"
+	parent = "Documentation"
+	weight = 90
+
+[[menu.main]]
+	name = "Troubleshoot"
+	identifier = "Troubleshooting"
+	url = "/documentation/troubleshoot"
+	parent = "Documentation"

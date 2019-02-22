@@ -1,0 +1,114 @@
+{{ partial "landing-head" . }}
+
+<div class="landing-page landing-page-light">
+  {{ partial "nav-home-nolinks" . }}
+
+  <div class="masthead hero-background">
+    <div class="container">
+      <div class="header-content row">
+        <div class="header-content-inner col-md-12">
+          <h1>{{.Params.hero.header | markdownify}}</h1>
+          <p>{{.Params.hero.sub | markdownify}}</p>
+          <button id="cta-button1" class="button button--red">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="lead1" class="lead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 text-left">
+          <div class="lead-inner">
+            <h2 class="lead-header">{{.Params.leads.lead1.header | markdownify}}</h2>
+            <div class="persona">
+              <div class="persona-image">
+                <img src="/img/marketing/landing/persona1.png" alt="persona1">
+              </div>
+              <p class="persona-quote">
+                {{.Params.personas.persona1.quote | markdownify}}
+              </p>
+            </div>
+            <p class="lead-body">{{.Params.leads.lead1.body | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="lead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <div class="lead-inner">
+            <h2 class="lead-header">{{.Params.leads.lead2.header | markdownify}}</h2>
+            <div class="persona">
+              <div class="persona-image">
+                <img src="/img/marketing/landing/persona2.png" alt="persona1">
+              </div>
+              <p class="persona-quote">
+                {{.Params.personas.persona2.quote | markdownify}}
+              </p>
+            </div>
+            <p class="lead-body">{{.Params.leads.lead2.body | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="lead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 text-left">
+          <div class="lead-inner">
+            <h2 class="lead-header">{{.Params.leads.lead3.header | markdownify}}</h2>
+            <div class="persona">
+              <div class="persona-image">
+                <img src="/img/marketing/landing/persona3.png " alt="persona1">
+              </div>
+              <p class="persona-quote">
+                {{.Params.personas.persona3.quote | markdownify}}
+              </p>
+            </div>
+            <p class="lead-body">{{.Params.leads.lead3.body | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <div class="row lander-row--grey">
+        <div class="col-sm-12 text-center">
+          <h2 class="contact-header">Want to know more?</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+            <div class="booking-form text-center">
+              <img  class="booking-image" src="/img/marketing/landing/calendar.png" alt="calendar">
+              <a class="button button--red booking-button" href="https://calendly.com/diederick" target="_blank">Book a call or demo now</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-form">
+            <div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/9be5a8caa284d6026dddf40b69b16521810301"><script src="https://webforms.pipedriveassets.com/webforms.min.js"></script></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ partial "footer" .}}
+
+<script>
+  $('#cta-button1').click(function() {
+    $('html, body').animate({
+      scrollTop: $('#lead1').offset().top
+    }, 1000);
+  });
+</script>
+
+
+
