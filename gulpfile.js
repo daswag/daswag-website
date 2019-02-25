@@ -64,7 +64,7 @@ gulp.task('js', function() {
 
 });
 
-gulp.task('hugo:prod',shell.task(['hugo --baseUrl https://www.daswag.tech']));
+gulp.task('hugo:prod',shell.task(['hugo']));
 gulp.task('hugo:dev',shell.task(['hugo']));
 
 
