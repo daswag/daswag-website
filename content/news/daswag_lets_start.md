@@ -9,6 +9,6 @@ Today is the official start of daSWAG OpenSource project.
 
 Stay tuned and follow us on twitter [daSWAG](https://www.twitter.com/daswag_project)
 
-Let's check our new documentation to lean how to install and use it [Documentation](http://www.daswag.tech/documentation)
+Let's check our new documentation to learn how to install daswag and use it [Documentation](http://www.daswag.tech/documentation/installation/getting-started)
 
 <!--more-->
