@@ -9,7 +9,6 @@
 @import 'mixins';
 @import 'transitions';
 @import 'animations';
-@import 'product';
 @import 'featured-articles';
 @import 'news';
 @import 'markdown';
@@ -30,7 +29,7 @@ body {
     margin-top: $spacer;
 
     .header {
-      color: $red;
+      color: $blue;
       margin: 40px 0;
     }
 
@@ -177,7 +176,7 @@ a {
 }
 
 .text-red {
-  color: $red !important;
+  color: $blue !important;
 }
 
 .text-green {
@@ -283,7 +282,7 @@ a {
   }
 
   &--red {
-    background-color: $red;
+    background-color: $blue;
     color: white;
 
     &:hover {
@@ -293,11 +292,11 @@ a {
 
     &--ghost {
       background-color: transparent;
-      color: $red;
-      border: 1px solid $red;
+      color: $blue;
+      border: 1px solid $blue;
 
       &:hover {
-        background-color: $red;
+        background-color: $blue;
         color: white;
       }
     }
@@ -326,7 +325,7 @@ a {
 
   &--white {
     background-color: #fff;
-    color: $red;
+    color: $blue;
 
     &:hover {
       background-color: $red-dark;
@@ -334,11 +333,11 @@ a {
 
     &--ghost {
       background-color: transparent;
-      color: $red;
-      border: 1px solid $red;
+      color: $blue;
+      border: 1px solid $blue;
 
       &:hover {
-        background-color: $red;
+        background-color: $blue;
         color: white;
       }
     }
@@ -413,7 +412,7 @@ a {
   }
 
   &--red {
-    background-color: $red;
+    background-color: $blue;
 
     .header, .h2, .h3, .text, .fa {
       color: white;
@@ -491,7 +490,7 @@ a {
     &.active {
       >a {
         p {
-          color: $red;
+          color: $blue;
         }
       }
     }
@@ -615,7 +614,7 @@ a {
   .content-header {
     font-size: $font-size-biggest;
     font-weight: $font-weight-light;
-    color: $red;
+    color: $blue;
     line-height: $line-height-default;
     letter-spacing: $letter-spacing-wide;
     text-transform: uppercase;
@@ -770,13 +769,6 @@ a {
     color: $gray-lighter !important;
   }
 
-  .vamp-bat {
-    height: 40px;
-    width: 50px;
-    margin-right: 20px;
-    display: none;
-  }
-
   .part {
     display: flex;
     align-items: center;
@@ -801,10 +793,6 @@ a {
       justify-content: initial;
       text-align: initial;
       margin: initial;
-    }
-
-    .vamp-bat {
-      display: block;
     }
   }
   }
@@ -907,10 +895,6 @@ a {
 
 .image--smaller {
   height: 120px;
-}
-
-.vamp-bat {
-  width: 60%;
 }
 
 .social-buttons {
@@ -1031,12 +1015,6 @@ a {
   }
   li {
     display: block;
-  }
-  .slicknav_arrow {
-    font-size: 16px;
-    margin: 0 10px 0 0;
-    float: right;
-    font-family: 'FontAwesome';
   }
   .slicknav_item {
     cursor: pointer;

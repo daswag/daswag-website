@@ -7,8 +7,7 @@
 Every push to Gitlab triggers a build. Each branch is deployed
 to a different environment
 
-master: https://www.daswag.tech, hosted on Gitlab pages.
-develop: http://dev.daswag.tech, hosted in an AWS S3 bucket.  
+master: https://www.daswag.tech, hosted on Gitlab pages. 
 
 When developing new parts, please branch off of `develop`.
 
@@ -16,7 +15,7 @@ When developing new parts, please branch off of `develop`.
 
 1. Clone this repo
 
-        $ git clone https://github.com/magneticio/vamp.io.git
+        $ git clone https://gitlab.com/daswag/daswag-website.git
 
 2. Download Hugo from [http://gohugo.io](http://gohugo.io) or install using Homebrew:
 
@@ -116,7 +115,7 @@ menu:
         identifier: 'test01-v1' #Different from v2.0.0
         weight: 20 #Different from v2.0.0
 ```
-**api/v2.0.0/test1/md**
+**api/v2.0.0/test1.md**
 ```
 menu:
     main:

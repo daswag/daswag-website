@@ -15,8 +15,8 @@
   font-weight: $font-weight-default;
   color: inherit;
   &:hover {
-    color: $red;
-    background: transparentize($red, .9);
+    color: $blue;
+    background: transparentize($blue, .9);
     text-decoration: none;
     i {
       transition: margin-left .5s ease;
@@ -48,7 +48,7 @@
 // style the stock webui popover
 
 
-.webui-popover-vamp {
+.webui-popover-daswag {
   box-shadow: 0 0 20px 0 rgba(178, 194, 212, .3) !important;
   border: $light-border !important;
   .webui-arrow {

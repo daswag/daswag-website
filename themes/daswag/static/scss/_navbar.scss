@@ -34,7 +34,7 @@
       color: $blue-darker;
 
       &:hover {
-        color: $red;
+        color: $blue;
       }
     }
 
@@ -129,7 +129,7 @@
     }
 
     &.active {
-      border-bottom: 3px solid $red;
+      border-bottom: 3px solid $blue;
       font-weight: 500;
       margin-bottom: -2px;
     }

@@ -6,23 +6,18 @@ menu:
     parent: "About"
     weight: 10
 ---
-Vamp is developed in the heart of beautiful [Amsterdam](http://www.iamsterdam.com/en/).
 
-We’re dedicated to helping organisations and companies of all sizes increase efficiency, save time and reduce costs.
-We provide powerful and easy-to-use solutions to optimise modern architectures and systems, often based around microservices and/or containers.
+daSWAG Community Edition is open source and Apache 2.0 licensed.
 
 ## Vision
 Time is precious. We believe people should focus their efforts on the things they excel at and that matter to them. Let
-computers do the repeatable and automatable tasks - they’re far more suited to that than we are. Smart automation FTW!
+a generator do the repeatable and automatable tasks - they’re far more suited to that than we are and then focus on our work.
 
-## Community
-We encourage anyone to [join the Vamp community](/community/) and pitch in with pull requests, bug reports and
- feature requests to make Vamp even more awesome.
+## Community support
+If you have a question about daSWAG, please check the [daSWAG documentation](/documentation/using-daswag) first  - we're always adding new resources, tutorials and examples.
 
-## Working at Vamp
-We're always on the lookout for smart, talented and motivated people that love to work on products and understand real-world
-problems and how to solve them in the best possible way. If you would love to join our team and work on Vamp and related products,
-check our [open positions](/careers/) or get in [touch](/about/contact)!
+* **Bug reports:** If you found a bug, please report it! [Create an issue on Gitlab](https://gitlab.com/daswag/daswag-website/issues) and provide as much info as you can, specifically the version of daswag you are running and the container driver you are using.
+* **Twitter:** You can also follow us on Twitter: [@daswag_project](https://twitter.com/daswag_project)
 
 ## Contact
 You can contact us [here](/about/contact/)

@@ -18,12 +18,11 @@ googleAnalytics = ""
 
 	# Repository
 	provider = "Gitlab"
-	repo_url = "https://gitlab.com/daswag/daswag-website"
+	repo_url = "https://gitlab.com/daswag"
 
-	version = "1.0.0"
+	version = "0.0.1"
 	logo = "images/favicon.png?v=1.0"
 	favicon = "images/favicon.png?v=1.0"
-	og_image = "https://vamp.io/img/006-mock-ups/VAMP-light-laptop-v100-hero.png"
 
 	permalink = "#"
 
@@ -37,11 +36,8 @@ googleAnalytics = ""
 	]
 
 	versionedDocs = [
-	    "API",
-	    "Configuration",
-	    "Using daSWAG",
-	    "Installation",
-	    "Troubleshooting"
+	    "How daSWAG works",
+	    "Installation"
 	]
 
 	# Syntax highlighting theme
@@ -105,10 +101,4 @@ googleAnalytics = ""
 	identifier = "Installation"
 	url = "/documentation/installation/overview"
 	parent = "Documentation"
-	weight = 20
-
-[[menu.main]]
-	name = "Using daSWAG"
-	url = "/documentation/using-daswag/"
-	parent = "Documentation"
-	weight = 40
+	weight = 10

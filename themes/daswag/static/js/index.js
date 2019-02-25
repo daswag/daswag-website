@@ -12,11 +12,6 @@ function documentReady() {
   /**
    * START Navbar
    */
-
-  // initialize top menu drop downs
-  $('.top-nav-product-top').webuiPopover({url: '#productPopover', trigger: 'click', animation: 'pop', offsetTop: -20, padding: false, style: 'vamp'});
-  $('.top-nav-developers-top').webuiPopover({url: '#developersPopover', trigger: 'click', animation: 'pop', offsetTop: -20, offsetLeft: 20, padding: false, style: 'vamp'});
-
   // make the top menu light on all pages except the homepage
   // make the menu smaller on scroll, only on the homepage
   if (thePath !== '/') {
