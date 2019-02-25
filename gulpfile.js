@@ -31,8 +31,6 @@ gulp.task('sass', function() {
 });
 
 const jsLibsBase = './themes/daswag/static/js/libs/';
-const jsAppsBase = './themes/daswag/static/js/apps/';
-
 
 gulp.task('js', function() {
     del('./themes/daswag/static/js/dist/**/*')
@@ -40,7 +38,7 @@ gulp.task('js', function() {
       .pipe(concat('vendor.js'))
       .pipe(gulp.dest('./themes/daswag/static/js/dist/'))
       .pipe(rename({ suffix: '.min' }))
-      .pipe(uglify())
+      //.pipe(uglify())
       .pipe(hash())
       .pipe(gulp.dest('./themes/daswag/static/js/dist/'))
       .pipe(hash.manifest("hash.json"))
@@ -48,20 +46,11 @@ gulp.task('js', function() {
 
     gulp.src('./themes/daswag/static/js/index.js')
       .pipe(rename({ suffix: '.min' }))
-      .pipe(uglify())
+      //.pipe(uglify())
       .pipe(hash())
       .pipe(gulp.dest('./themes/daswag/static/js/dist/'))
       .pipe(hash.manifest("hash.json"))
       .pipe(gulp.dest("data/js"));
-
-    gulp.src('./themes/daswag/static/js/apps.js')
-      .pipe(rename({ suffix: '.min' }))
-      .pipe(uglify())
-      .pipe(hash())
-      .pipe(gulp.dest('./themes/daswag/static/js/dist/'))
-      .pipe(hash.manifest("hash.json"))
-      .pipe(gulp.dest("data/js"));
-
 });
 
 gulp.task('hugo:prod',shell.task(['hugo']));
