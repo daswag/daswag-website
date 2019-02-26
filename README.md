@@ -1,13 +1,10 @@
-# daswag.tech
+# Official daSWAG Website
 
 ![Build Status](https://gitlab.com/daswag/daswag-website/badges/master/build.svg)
 
 ## Deployment
 
-Every push to Gitlab triggers a build. Each branch is deployed
-to a different environment
-
-master: https://www.daswag.tech, hosted on Gitlab pages. 
+Every push to Gitlab triggers a build. Each branch is deployed to a different environmen master: https://www.daswag.tech, hosted on Gitlab pages. 
 
 When developing new parts, please branch off of `develop`.
 
@@ -21,7 +18,15 @@ When developing new parts, please branch off of `develop`.
 
         $ brew update && brew install hugo
 
-3. Run hugo in watch mode and start adding content under the `content/` tree
+3. Install Gulp tool if needed
+
+        $ npm install -g gulp
+
+4. Install dependencies and build static content
+
+        $ npm install && gulp build:dev && gulp hugo:dev
+
+5. Run hugo in watch mode and start adding content under the `content/` tree
 
         $ hugo server --watch
 
