@@ -17,8 +17,8 @@ googleAnalytics = ""
 	copyright = "Released under the Apache 2 license"
 
 	# Repository
-	provider = "Gitlab"
-	repo_url = "https://gitlab.com/daswag"
+	provider = "Github"
+	repo_url = "https://github.com/daswag"
 
 	version = "0.0.1"
 	logo = "images/favicon.png?v=1.0"
@@ -53,7 +53,7 @@ googleAnalytics = ""
 
 [social]
 	twitter = "daswag_project"
-	gitlab  = "daswag/daswag-website"
+	github  = "daswag/daswag-website"
 
 [blackfriday]
 	smartypants	= true

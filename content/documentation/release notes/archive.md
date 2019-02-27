@@ -9,4 +9,4 @@ aliases:
 
 * [Vamp version 0.0.1](/documentation/release-notes/version-0-0-1/)
 
-Release notes for older daSWAG versions can be found in the [Gitlab release notes](https://gitlab.com/daswag/daswag-generator/releases).
+Release notes for older daSWAG versions can be found in the [Github release notes](https://github.com/daswag/daswag-generator/releases).

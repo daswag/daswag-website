@@ -1,10 +1,10 @@
 # Official daSWAG Website
 
-![Build Status](https://gitlab.com/daswag/daswag-website/badges/master/build.svg)
+![Build Status](https://github.com/daswag/daswag-website/badges/master/build.svg)
 
 ## Deployment
 
-Every push to Gitlab triggers a build. Each branch is deployed to a different environmen master: https://www.daswag.tech, hosted on Gitlab pages. 
+Every push to Github triggers a build. Each branch is deployed to a different environmen master: https://www.daswag.tech, hosted on Github pages. 
 
 When developing new parts, please branch off of `develop`.
 
@@ -12,7 +12,7 @@ When developing new parts, please branch off of `develop`.
 
 1. Clone this repo
 
-        $ git clone https://gitlab.com/daswag/daswag-website.git
+        $ git clone https://github.com/daswag/daswag-website.git
 
 2. Download Hugo from [http://gohugo.io](http://gohugo.io) or install using Homebrew:
 

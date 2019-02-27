@@ -23,6 +23,6 @@ aliases:
 ## All closed issues can be found here:
 
 {{< note title="What next?" >}}
-* Read all release notes on gitlab ([gitlab.com/daswag - daSWAG releases](https://gitlab.com/daswag/daswag-generator/releases))
+* Read all release notes on github ([github.com/daswag - daSWAG releases](https://github.com/daswag/daswag-generator/releases))
 * You can [install daSWAG](/documentation/installation/overview).
 {{< /note >}}
